@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - Desafio 1 - Lógica</title>
+    <link rel="shortcut icon" href="/img/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/Vector.svg" width="32" height="48s" alt="Logo">
+    </header>
+    <main>
+        <section class="section_Global">
+            <section>
+                <textarea name="textarea" id="textarea"  cols="20" rows="10" placeholder="Digite seu texto"></textarea>
+              
+            </section>
+
+            <section class="section_button">
+                <div class="div__img_p">
+    
+                    <img src="img/bi_exclamation-circle-fill.png" alt="círculo de exclamação">
+                    <p>Apenas letras minúsculas e sem acento</p>
+                </div>
+                <div class="div__button">
+                    <button type="submit"  class="button_primary" onclick="handle_Criptografar()">
+                        Criptografar
+                    </button>
+                    <button type="submit" class="button_secondary" onclick="handle_Descriptografar()">
+                        Descriptografar
+                    </button>
+                </div>
+            </section>
+        </section>
+        <section class='section_mensagem' id='section_mensagem'>
+            <figure>
+                <picture id="picture" class="picture_none">
+                    <img src="img/High_quality_products1.png" alt="imagem de procurando mensagem">
+                </picture>
+            </figure>
+                <h2 id="nenhuma_mensagem_encontrada">Nenhuma mensagem encontrada</h2>   
+                <textarea class="none" name="" id="criptrografado" cols="30" rows="10"></textarea>
+                <p id="p_deletar">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button onclick="handle_Copy()" class="button_secondary button_tertiary  none" id="copy">Copiar</button>
+            
+        </section>
+
+    </main>
+
+    <footer>
+            <div class="div__footer_center"> 
+                <div class="div__footer_icon">
+                    <img src="img/github.png" width="32" height="32" alt="Logo Github">
+                    <h3>LucasSst</h3>
+                </div>
+                <div class="div__footer_icon">
+                    <img src="img/linkedin.svg" width="32" height="32" alt="Logo linkedin">
+                    <h3>lucastsilva-dev</h3>
+                </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
