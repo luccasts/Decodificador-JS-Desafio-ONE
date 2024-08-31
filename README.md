@@ -22,4 +22,4 @@ decoficicado.
 </ul>
 
 ## Link WEBSITE
-- [Decodificador-JS-Desafio-ONE](https://lucassst.github.io/Decodificador-JS-Desafio-ONE/)
+- [Decodificador-JS-Desafio-ONE](https://luccasts.github.io/Decodificador-JS-Desafio-ONE/)
